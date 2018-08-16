@@ -30,6 +30,7 @@ span {
 }
 
 .label-value{
+	color: #7f97b3;
     width: 200px;
     vertical-align: top;
 }
@@ -51,9 +52,13 @@ span {
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: 500;
-    color: #607d8b;
-    line-height: 1.5;
+    font-weight: 300;
+    color: #0083b7;
+    line-height: 2;
+}
+a{
+	text-decoration: none;
+	color: inherit;
 }
 
 .progress-list div {
@@ -121,20 +126,23 @@ hr {
 
 
 body {
-    background-color: lightslategray;
+    background-color: #ecf7fd;
     font-family: sans-serif, Microsoft Yahei, Helvetica Neue;
-    zoom: 80%;
+    zoom: 90%;
 }
 
 footer {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #7f97b3;
+    cursor: default;
 }
 
 progress {
-    background-color: #f6f6f6;
+    background-color: #c0eaab;
     display: inline;
     /*width: 195px;*/
     height: 1em;
@@ -142,24 +150,24 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-    background-color: #e0eaf0;
+    background-color: #c0eaab;
 }
 
 progress::-webkit-progress-value {
-    background-color: #708d9b;
+    background-color: #99ce7e;
 }
 
 progress::-moz-progress-bar {
-    background-color: #e0eaf0;
+    background-color: #c0eaab;
 
 }
 
 progress::-moz-progress-value {
-    background-color: #708d9b;
+    background-color: #99ce7e;
 }
 
 .progress-list {
-    line-height: 2;
+    line-height: 2.4;
 }
 
 
@@ -169,22 +177,10 @@ progress::-moz-progress-value {
     margin-bottom: 20px;
 }
 
-.weixin{
-    margin-top: 20px;
-    background-color: #e0eaf0;   
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-.weixin img{
-    width: 200px;
-}
-
 .left-label {
     display: inline-block;
     width: 120px;
+    color: #7f97b3;
 }
 
 .portrait {
@@ -203,19 +199,18 @@ progress::-moz-progress-value {
 
 .container {
     position: relative;
-    margin: 0 auto;
-
+    margin: 50px auto;
     width: 1050px;
-    height: 1550px;
     background-color: white;
-
+    transform: translate3d(0,-4px,0);
+    box-shadow: 0 12px 30px 0 rgba(0,0,0,.2);
 }
 
 .side {
     position: absolute;
     width: 360px;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: #f4f5f4;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -229,62 +224,8 @@ progress::-moz-progress-value {
 
 }
 
-.info-header:hover {
-    background-color: #d4dee4;
-}
-
-.info-unit ul li:hover {
-    background-color: #d4dee4;
-}
-
-.info-header .unit-remove {
-    float: right;
-    margin-left: 20px;
-    visibility: hidden;
-    cursor: pointer;
-
-}
-
-.info-header .item-add {
-    float: right;
-    margin-left: 20px;
-    margin-right: 2px;
-    visibility: hidden;
-    cursor: pointer;
-    
-}
-
- .item-remove {
-    position: absolute;
-    right: 2px;
-    margin-right: 2px;
-    visibility: hidden;
-    cursor: pointer;
-    
-}
-
 ul li{
     position: relative;
-}
-
- .experience-list .item-remove {
-    position: absolute;
-    right: 2px;
-    top: 0px;
-    margin-right: 2px;
-    visibility: hidden;
-    cursor: pointer;
-    
-}
-
- .stack-list .item-remove {
-    position: absolute;
-    right: 2px;
-    top: 0px;
-    margin-right: 2px;
-    visibility: hidden;
-    cursor: pointer;
-    
 }
 
 
